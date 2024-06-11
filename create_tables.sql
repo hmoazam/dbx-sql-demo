@@ -1,4 +1,8 @@
 -- Databricks notebook source
+ç
+
+-- COMMAND ----------
+
 --STORE DIMENSION
 CREATE OR REPLACE TABLE uc_demos_hanna_moazam.default.dim_store(
   store_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,

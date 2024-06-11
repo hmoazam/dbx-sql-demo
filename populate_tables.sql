@@ -1,9 +1,4 @@
 -- Databricks notebook source
--- MAGIC %python
--- MAGIC # Databricks notebook source
-
--- COMMAND ----------
-
 INSERT INTO
   uc_demos_hanna_moazam.default.dim_store (store_name, address)
 VALUES

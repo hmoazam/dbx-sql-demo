@@ -1,5 +1,6 @@
 -- Databricks notebook source
--- Databricks notebook source
+-- MAGIC %python
+-- MAGIC # Databricks notebook source
 
 -- COMMAND ----------
 

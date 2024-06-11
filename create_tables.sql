@@ -15,7 +15,8 @@ CREATE OR REPLACE TABLE uc_demos_hanna_moazam.default.dim_product(
   product_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   sku STRING,
   description STRING,
-  category STRING
+  category STRING,
+  name STRING
 );
 
 -- COMMAND ----------

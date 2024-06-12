@@ -3,10 +3,16 @@
 CREATE OR REPLACE TABLE uc_demos_hanna_moazam.default.dim_store(
   store_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   store_name STRING,
-  address STRING
+  address STRING,
+  test STRING
 );
 
 
+
+-- COMMAND ----------
+
+-- MAGIC %md
+-- MAGIC ### Creating initial tables
 
 -- COMMAND ----------
 
